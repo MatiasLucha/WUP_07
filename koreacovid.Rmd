@@ -21,7 +21,7 @@ mutate(across(where(is.character), as.factor))
 
 # Introduction
 
-
+There will be data and statistics to determine if there is a correlation between gender and deaths in Korea.
 
 ### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020
 ### This data was retrieved from a downloadable zip file from kaggle
