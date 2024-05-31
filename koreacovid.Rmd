@@ -68,7 +68,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-The p-value for the Chi-squared test is 0.001, so we reject the knull hypothesis.
+The p-value for the Chi-squared test is 0.001, so we reject the null hypothesis. 
 
 
 ## Conclusions
