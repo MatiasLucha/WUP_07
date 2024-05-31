@@ -55,9 +55,18 @@ This barchart shows that the frequency of women compared to men on being alive i
   
 ## Numerical results
 
-
+```{r}
+table1 <- xtabs(~result + sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+this numerical summary shows that women were alive 12 more in amount than men, and men died 28 more in value. 
 ## Inferential results 
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 
