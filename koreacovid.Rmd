@@ -70,6 +70,8 @@ fisher.test(table1)
 ```
 The p-value for the Chi-squared test is 0.001, so we reject the null hypothesis. 
 
+The Fisher exact test shows that men are 2.3 times more likely to die than women in Korea. 
+
 
 ## Conclusions
 There is a relationship between gender or sex, and the amount of deaths in Korea during or due to Covid.
